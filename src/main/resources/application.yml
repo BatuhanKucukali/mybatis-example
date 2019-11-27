@@ -1,0 +1,16 @@
+# Spring
+spring:
+
+  # Application
+  application:
+    name: mybatis-example
+
+  # Datasource
+  datasource:
+    url: jdbc:h2:mem:test;DATABASE_TO_UPPER=false;
+
+# Logging
+logging:
+  level:
+    org.springframework: warn
+    com.mybatis: trace
